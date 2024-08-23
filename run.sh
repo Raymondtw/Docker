@@ -67,6 +67,10 @@ case ${option} in
       clear
       exit 1 # Command to come out of the program with status 1
       ;; 
+   -s) 
+      stop_dockercompose
+      exit 1 # Command to come out of the program with status 1
+      ;; 
    *) 
       run
       exit 1 # Command to come out of the program with status 1
